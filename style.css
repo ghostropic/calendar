@@ -1,0 +1,55 @@
+h1 {
+  text-align: center;
+}
+
+.container {
+  border: 1px solid black;
+  max-width: 560px;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+}
+
+.header__day {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 20px;
+}
+
+.week {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.day {
+  color: black;
+  padding: 5px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.sunday, .saturday {
+  color: red;
+}
+
+.today {
+  color: blue;
+}
+
+.prev {
+  cursor: pointer;
+  position: absolute;
+  left: 100px;
+  top: 33%;
+}
+
+.next {
+  cursor: pointer;
+  position: absolute;
+  right: 100px;
+  top: 33%;
+}
